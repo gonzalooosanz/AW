@@ -1,0 +1,267 @@
+form {
+	background-color: #C5CAE9;
+	width: 80%;
+	padding: 50px 0;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1500px;
+}
+
+.segmento {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.input-group input[type="text"], .input-group input[type="password"],
+	.input-group input[type="email"], .input-group input[type="date"],
+	.input-group input[type="number"], .input-group textarea, .input-group select
+	{
+	font-size: 16px;
+	color: #000;
+	width: 250px;
+	outline: none;
+	padding: 15px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #311B92;
+}
+
+.input-group.radio label {
+	display: inline-block;
+	cursor: pointer;
+	color: #303F9F;
+	position: relative;
+	padding: 5px 15px 5px 51px;
+	font-size: 1em;
+	border-radius: 3px;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.input-group.radio label:hover {
+	background: #bbdefb;
+}
+
+.input-group.radio label:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	left: 15px;
+	border-radius: 50%;
+	background: none;
+	border: 2px solid #303F9F;
+}
+
+.input-group.radio input[type="radio"] {
+	display: none;
+}
+
+.input-group.radio input[type="radio"]:checked+label:before {
+	display: none;
+}
+
+.input-group.radio input[type="radio"]:checked+label {
+	padding: 5px 15px;
+	background: green;
+	border-radius: 2px;
+	color: #f2f2f2;
+
+}
+.input_ancho {
+	font-size: 16px;
+	color: #000;
+	width: 60%;
+	margin: 10px auto;
+	outline: none;
+	padding: 15px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #311B92;
+}
+
+.input-group label {
+	color: #2F748C;
+}
+
+.titulo_form {
+	font-size: 2rem;
+	font-style: normal;
+	color: #311B92;
+	text-align: center;
+	padding: 30px;
+}
+
+.submit-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.error_form {
+	list-style: none;
+	color: red;
+	text-align: center;
+	font-size: 25px;
+}
+
+.label_error{
+	color: red;
+	text-align: center; 
+	display: none; 
+}
+
+/* -------- APUNTARME A TORNEO FORM ----- */
+
+.form_wrapper h2 {
+	display: inline-block;
+	padding: 10px 0;
+}
+
+.form_wrapper .terminos_wrapper {
+	width: 100%;
+	margin: 15px auto;
+}
+
+.form_wrapper .terminos_wrapper h3 {
+	text-align: center;
+}
+
+.form_wrapper .terminos_wrapper p {
+	padding: 8px 10px;
+	text-align: center;
+}
+
+.form_wrapper .terminos_wrapper .input-group {
+	width: 50%;
+	text-align: center;
+	margin: 6px auto;
+}
+
+.form_wrapper .buscador_wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.form_wrapper .buscador_wrapper h3 {
+	display: inline-block;
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+}
+
+.form_wrapper .resultados_wrapper {
+	margin: 40px auto;
+	width: 100%; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: space-between; 
+}
+
+.form_wrapper .resultados_wrapper .usuario{
+	width: 40%; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+}
+
+.form_wrapper .resultados_wrapper .usuario .photo_wrapper{
+	width: 100%; 
+	display: flex; 
+	flex-direction: row; 
+	justify-content: center; 
+}
+
+.form_wrapper .resultados_wrapper .usuario h3{
+	display: inline-block; 
+	width: 100%; 
+	padding: 7px 0; 
+	text-align: center; 
+}
+.form_wrapper .resultados_wrapper .usuario .buttons_wrapper{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+	width: 100%; 
+	margin: 10px auto; 
+}
+
+.form_wrapper .resultados_wrapper .usuario .buttons_wrapper a{
+	display: inline-block; 
+	width: 100%; 
+	text-align: center; 
+}
+
+
+.form_wrapper .submit-group {
+	margin: 70px auto;
+	width: 100%;
+	text-align: center;
+}
+
+/* Popup */ 
+.form_wrapper .popup.enabled{
+	background: #fff; 
+	position: fixed; 
+	top: 50%;
+	left: 15%;
+	width: 50%;   
+}
+
+.form_wrapper .popup.disabled{
+	display: none; 
+}
+
+.form_wrapper .popup.enabled .info_usuario_wrapper{
+	display: flex; 
+	flex-direction: row; 
+	width: 100%;
+	justify-content: space-around; 
+	flex-wrap: wrap; 
+}
+
+.form_wrapper .popup.enabled .info_usuario_wrapper .datos_wrapper{
+	width: 40%; 
+}
+
+.popup p{
+	padding: 10px auto; 
+	text-align: center; 
+	line-height: 40px; 
+}
+
+.popup .buttons_wrapper{
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-around; 
+	margin: 10px auto; 
+}
+
+
+
+
+
+
+

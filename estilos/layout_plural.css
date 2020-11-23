@@ -1,0 +1,75 @@
+
+
+.main .button_wrapper{
+	width: 100%; 
+	margin: 40px; 
+	display: flex; 
+	flex-direction: row; 
+	justify-content: center; 
+}
+
+.torneos_wrapper{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+	
+}
+
+.torneo_wrapper{
+	width: 33%; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+}
+
+.torneo_wrapper .photo_wrapper{
+	width: 100%; 
+	margin: 15px 90px; 
+}
+
+.torneo_wrapper .photo_wrapper .imagen{
+	width: 100%; 
+}
+
+.torneo_wrapper .datos_wrapper{
+	text-align: center; 
+	width: 100%; 
+	padding: 10px 0; 
+}
+
+.torneo_wrapper .datos_wrapper h4{
+	padding: 6px 0; 
+	display: inline-block; 
+	width: 100%; 
+}
+
+.torneo_wrapper .buttons_wrapper{
+	margin: 10px 0; 
+	width: 100%; 
+	height: auto; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+}
+
+.torneo_wrapper a{
+	display: inline-block; 
+	max-height: 20px; 
+}
+
+.torneo_wrapper .parrafo_pequeño{
+	margin: 6px; 
+	display: inline-block;
+	width: 100%; 
+	text-align: center;
+}
+
+
+
+
+
+
+

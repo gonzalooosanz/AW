@@ -1,0 +1,13 @@
+
+/* Para la practica 3 estos estilos cambiaran */ 
+
+h1,h2,h3{
+	padding: 10px;
+}
+p{
+	text-align: center; 
+}
+.button_wrapper{
+	padding: 10px; 
+	text-align: center; 
+}

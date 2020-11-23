@@ -1,0 +1,104 @@
+
+
+.main{
+	display: flex; 
+	flex-direction: row; 
+	width: 100%; 
+	flex-wrap: wrap; 
+}
+/* MENU LATERAL */ 
+
+.lateral_menu_wrapper{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	width: 15%; 
+}
+.icon-menu{
+	width: 60px;
+	display: inline-block; 
+	text-align: center; 
+	position: fixed; 
+	top: 18%; 
+}
+.icon-menu:hover{
+	cursor: pointer; 
+	color: #57378A; 
+}
+.lateral_wrapper{
+	width: 15%;  
+	position: fixed; 
+	left: 10%: 
+}
+
+.option{
+	background: #fff; 
+	border-bottom: 1px solid #D8E1E7; 
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between; 
+}
+
+.icon-menu{
+	height: 300px;
+}
+.option span{
+	width: 60px; 
+	color: #57617a; 
+}
+
+.option a{
+	text-align: left; 
+	color: #57617a; 
+	text-decoration: none;
+	width: 100%;  
+	font-size: 14px; 
+	padding: 20px 30px; 
+	display: inline-block; 
+}
+
+.option:hover, 
+.option.selected{
+	background: #D7CDE7;
+	cursor: pointer; 
+}
+
+/* Estilos de datos de mi perfil */ 
+
+.wrapper_account{
+	background: #0d6069;
+	width: 90%;  
+	display: flex; 
+	flex-direction: row; 
+	margin-left: 15%; 
+	justify-content: space-between; 
+	align-items: center; 
+}
+
+.photo_wrapper{
+	width: 40%; 
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-around; 
+	align-items: center;
+}
+
+.wrapper_account .photo_wrapper img{
+	width: 50%; 
+	max-width: 300px; 
+	max-height: 300px; 
+}
+
+.wrapper_account .photo_wrapper h3{
+	color: #fff; 
+	font-size: 32px; 
+	font-weight: 700; 
+	
+}
+
+.wrapper_account .editar_perfil_wrapper{
+	margin-right: 50px; 
+}
+
+
+

@@ -1,0 +1,157 @@
+.separator{
+	padding:  100px 100px;
+	border-bottom: 3px solid #512da8;
+	width: 70%;
+}
+
+.separator.continuacion{
+	width: 70%; 
+	padding: 50px 100px; 
+}
+.separator.continuacion:hover{
+	cursor: pointer; 
+	color: #fff; 
+	background: #512da8;
+}
+
+.separator.continuacion:hover h3{
+	color: #fff; 
+}
+
+
+.account_info_wrapper{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+	background: #154360; 
+	margin: 60px 10px; 
+	width: 100%; 
+}
+
+.account_info_wrapper .photo_wrapper{
+	width: 45%; 
+}
+
+.account_info_wrapper .photo_wrapper img{
+	max-width: 300px; 
+	max-height: 300px; 
+	width: 100%;
+}
+
+
+.account_info_wrapper .info_wrapper{
+	width: 45%; 
+	display: flex; 
+	flex-direction: column; 
+	flex-wrap: no-wrap; 
+	justify-content: center; 
+}
+
+.account_info_wrapper .info_wrapper h3{
+	color: #fff; 
+		
+}
+
+.account_info_wrapper .buttons_wrapper{
+	width: 100%; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: no-wrap; 
+	justify-content: center; 
+	align-items: flex-start; 
+}
+
+.account_info_wrapper .buttons_wrapper .editar_perfil_wrapper{
+	width: 50%; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: no-wrap; 
+	justify-content: center;   
+	margin-bottom: 30px; 
+	margin-top: 10px;  
+}
+
+
+/* ------------- NOTIFICACIONES --------------- */ 
+
+
+.notificaciones_usuario_wrapper{
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+}
+
+.notificaciones_usuario_wrapper .notificaciones_wrapper{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	background: #FCF3CF; 
+	margin: 30px auto; 
+}
+
+.notificaciones_usuario_wrapper .notificaciones_wrapper .notificacion_wrapper{
+	width: 90%; 
+	background: #fff; 
+	margin: 10px auto; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+}
+
+
+
+.notificaciones_usuario_wrapper .notificaciones_wrapper .notificacion_wrapper .cabecera_wrapper{
+	width: 100%; 
+	padding: 10px auto; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: no-wrap;
+	justify-content: space-around;  
+}
+
+.notificaciones_usuario_wrapper .notificaciones_wrapper .notificacion_wrapper .cabecera_wrapper .asunto_wrapper{
+	width: 90%; 
+	color: #9C640C;
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: no-wrap; 
+	justify-content: flex-end; 
+}
+
+.notificaciones_usuario_wrapper .notificaciones_wrapper .notificacion_wrapper .cabecera_wrapper .asunto_wrapper.first:hover{
+	transform: scale(1.1); 
+	cursor: pointer; 
+}
+.notificaciones_usuario_wrapper .notificaciones_wrapper .notificacion_wrapper .cabecera_wrapper .button_wrapper{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: no-wrap; 
+	justify-content: flex-end; 
+	align-items: flex-start; 
+	width: 10%; 
+	
+	
+}
+
+/* -------------------------- POPUP DE PARTIDO ------------------- */ 
+
+
+.popUpPartido_wrapper{
+	width: 70%; 
+	position: fixed; 
+	top: 30%; 
+	left: 20%; 
+	background: #A9CCE3; 
+	z-index: 10000; 
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+
+.parejas_wrapper{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	width: 100%; 
+}
+
+.parejas_wrapper .pareja_wrapper{
+	width: 100%; 
+	
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+}
+
+.parejas_wrapper .pareja_wrapper .integrante_wrapper{
+	width: 40%;
+	background: #2471A3; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+	margin: 50px 0; 
+}
+
+.parejas_wrapper .pareja_wrapper .integrante_wrapper .photo_wrapper{
+	width: 80%; 
+	background: #2E86C1; 
+	margin-top: 40px; 
+}
+
+.parejas_wrapper .pareja_wrapper .integrante_wrapper .photo_wrapper img{
+	width: 100%; 
+	opacity: .7; 
+}
+
+.parejas_wrapper .pareja_wrapper .integrante_wrapper .photo_wrapper img:hover{
+	width: 100%; 
+	opacity: 1; 
+	
+}
+
+.parejas_wrapper .pareja_wrapper .integrante_wrapper .info_wrapper{
+	width: 100%; 
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+	text-align: center; 
+	background: #2471A3; 
+}
+.parejas_wrapper .pareja_wrapper .integrante_wrapper .info_wrapper p{
+	color: #95A5A6;   
+}
+.parejas_wrapper .pareja_wrapper .integrante_wrapper .info_wrapper .link_wrapper{
+	width: 100%; 
+	text-align: center; 
+	
+	
+}
+
+
+
+
+.parejas_wrapper .line_wrapper{
+	background: #ccc; 
+}
